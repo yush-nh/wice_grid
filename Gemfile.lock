@@ -442,7 +442,7 @@ GEM
     tins (1.33.0)
       bigdecimal
       sync
-    turbo-rails (2.0.10)
+    turbo-rails (2.0.11)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
     tzinfo (2.0.6)
