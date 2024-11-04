@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'wice_grid'
-  s.version       = '7.1.3'
+  s.version       = '7.1.4'
   s.authors       = ['Yuri Leikind, Dimitri Kulk, and contributors']
   s.email         = ['dim.kulk@gmail.com']
   s.homepage      = 'https://github.com/leikind/wice_grid'
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.date          = `date +%Y-%m-%d`
 
-  s.add_dependency 'rails', '~> 7.1'
+  s.add_dependency 'rails', '~> 7.0'
   s.add_dependency 'kaminari'
   s.add_dependency 'coffee-rails', '>= 5.0.0'
   s.add_dependency 'jquery-rails'

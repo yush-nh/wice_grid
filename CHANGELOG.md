@@ -1,3 +1,9 @@
+## 7.1.4
+
+* Allow Rails 7.0
+* Wice::Columns#add_css_class does not update the value given
+to the :class option of Wice::GridRenderer#column method.
+
 ## 7.1.3
 
 * Fixes [the bug](https://github.com/leikind/wice_grid/issues/395).

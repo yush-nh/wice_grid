@@ -146,7 +146,7 @@ module Wice #:nodoc:
         if html[:class].nil?
           html[:class] = klass_value
         else
-          html[:class] << ' ' unless html[:class].empty?
+          html[:class] += ' ' unless html[:class].empty?
           html[:class] << klass_value
         end
       end
