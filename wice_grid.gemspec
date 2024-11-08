@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', '~> 7.0'
   s.add_dependency 'kaminari'
-  s.add_dependency 'coffee-rails', '>= 5.0.0'
   s.add_dependency 'jquery-rails'
 
   s.add_development_dependency 'appraisal'
