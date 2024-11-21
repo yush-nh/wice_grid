@@ -59,8 +59,8 @@ module Wice
       end
     end
 
-    initializer 'wice_grid_railtie.configure_rails_assets_precompilation' do |app|
-      app.config.assets.precompile << 'icons/grid/*'
+    initializer 'wice_grid.assets.precompile' do |app|
+      app.config.assets.precompile += %w[wice_grid.js wice_grid.css]
     end
   end
 
